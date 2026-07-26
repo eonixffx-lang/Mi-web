@@ -1,74 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intranet</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intranet</title>
 
-        body {
-            background-color: #000000;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            color: #ffffff;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        .container {
-            background-color: #111111;
-            padding: 50px 40px;
-            border-radius: 16px;
-            width: 420px;
-            max-width: 90%;
-            box-shadow: 0 0 40px rgba(0, 123, 255, 0.15);
-            border: 1px solid #222222;
-            text-align: center;
-        }
+body{
+    background:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:white;
+}
 
-        .container h1 {
-            font-size: 28px;
-            margin-bottom: 8px;
-            letter-spacing: 2px;
-            color: #00aaff;
-        }
+.container{
+    background:#111;
+    padding:40px;
+    border-radius:15px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,170,255,.3);
+}
 
-        .container .welcome {
-            font-size: 15px;
-            color: #cccccc;
-            margin-bottom: 30px;
-            line-height: 1.5;
-        }
+h1{
+    color:#00aaff;
+    margin-bottom:15px;
+}
 
-        .container input {
-            width: 100%;
-            padding: 14px 16px;
-            margin-bottom: 16px;
-            background-color: #1a1a1a;
-            border: 1px solid #333333;
-            border-radius: 8px;
-            color: #ffffff;
-            font-size: 15px;
-            outline: none;
-            transition: border-color 0.3s ease, box-shadow 0.3s ease;
-        }
+p{
+    color:#ccc;
+    margin-bottom:20px;
+    line-height:1.5;
+}
 
-        .container input::placeholder {
-            color: #777777;
-        }
+input{
+    width:100%;
+    padding:14px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+    background:#222;
+    color:white;
+    font-size:16px;
+}
 
-        .container input:focus {
-            border-color: #00aaff;
-            box-shadow: 0 0 12px rgba(0, 170, 255, 0.25);
-        }
+input::placeholder{
+    color:#888;
+}
 
-        .container button {
-            width: 100%;
-            padding: 14px;
-            background-color: #00
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#00aaff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button
