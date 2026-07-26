@@ -1,72 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Intranet</title>
-
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    background:#000;
-    font-family:Arial, Helvetica, sans-serif;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    color:white;
-}
-
-.container{
-    background:#111;
-    padding:40px;
-    border-radius:15px;
-    width:350px;
-    text-align:center;
-    box-shadow:0 0 20px rgba(0,170,255,.3);
-}
-
-h1{
-    color:#00aaff;
-    margin-bottom:15px;
-}
-
-p{
-    color:#ccc;
-    margin-bottom:20px;
-    line-height:1.5;
-}
-
-input{
-    width:100%;
-    padding:14px;
-    margin:10px 0;
-    border:none;
-    border-radius:8px;
-    background:#222;
-    color:white;
-    font-size:16px;
-}
-
-input::placeholder{
-    color:#888;
-}
-
-button{
-    width:100%;
-    padding:14px;
-    border:none;
-    border-radius:8px;
-    background:#00aaff;
-    color:white;
-    font-size:16px;
-    cursor:pointer;
-    margin-top:10px;
-}
-
-button
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#fff;font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh}
+.container{background:#111;padding:40px;border-radius:15px;width:360px;max-width:90%;text-align:center;box-shadow:0 0 20px rgba(0,170,255,.3)}
+h1{color:#00aaff;margin-bottom:15px}
+p{color:#ccc;margin-bottom:20px;line-height:1.5}
+input{width:100%;padding:14px;margin:10px 0;background:#222;border:none;border-radius:8px;color:#fff}
+button{width:100%;padding:14px;background:#00aaff;border:none;border-radius:8px;color:#fff;cursor:pointer;margin-top:10px}
+.footer{margin-top:20px;color:#999;font-size:14px}
+.footer a{color:#00aaff;text-decoration:none}
+</style></head><body>
+<div class="container">
+<h1>Intranet</h1>
+<p>Bienvenido/a a Intranet.<br>Por favor ingrese su usuario y contraseña para continuar.</p>
+<input type="text" placeholder="Ingrese su usuario">
+<input type="password" placeholder="Ingrese su contraseña">
+<button>Ingresar</button>
+<div class="footer">Si no cuenta con un usuario puede comprar uno aquí:<br><a href="tel:+1123456789">+1 123456789</a></div>
+</div></body></html>
