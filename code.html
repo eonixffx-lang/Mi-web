@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #ffffff;
+        }
+
+        .container {
+            background-color: #111111;
+            padding: 50px 40px;
+            border-radius: 16px;
+            width: 420px;
+            max-width: 90%;
+            box-shadow: 0 0 40px rgba(0, 123, 255, 0.15);
+            border: 1px solid #222222;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+            color: #00aaff;
+        }
+
+        .container .welcome {
+            font-size: 15px;
+            color: #cccccc;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .container input {
+            width: 100%;
+            padding: 14px 16px;
+            margin-bottom: 16px;
+            background-color: #1a1a1a;
+            border: 1px solid #333333;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 15px;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container input::placeholder {
+            color: #777777;
+        }
+
+        .container input:focus {
+            border-color: #00aaff;
+            box-shadow: 0 0 12px rgba(0, 170, 255, 0.25);
+        }
+
+        .container button {
+            width: 100%;
+            padding: 14px;
+            background-color: #00
